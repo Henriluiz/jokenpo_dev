@@ -99,8 +99,8 @@ footer {
     padding: 10px;
 }
 
-@media screen and (max-width: 390px){
-    .container {
+@media screen and (max-width: 600px){
+    .content {
         width: calc(100% - 20px);
         padding: 10px;
         margin: 0 auto;
