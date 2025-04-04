@@ -16,7 +16,8 @@ let perdeu = false
 function jogar(jogada) {
     event.preventDefault(); // Impede o envio do formulários
 
-    pisoQuebrado = Math.floor(Math.random()*3) + 1
+    // pisoQuebrado = Math.floor(Math.random()*3) + 1
+    pisoQuebrado = 2
 
     if (rodada == 10){
         document.getElementById("resultado").innerHTML = `<style>.resultado {
@@ -27,7 +28,7 @@ function jogar(jogada) {
                 margin-botton: 0.2rem;
             }
             p {
-                color: red;
+                color: green;
             }
             .perdeu {    
                 text-decoration:line-through;
