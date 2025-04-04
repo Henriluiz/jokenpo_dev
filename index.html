@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <script defer src="./js/vidro.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+    
+        <div class="container">
+            <div class="content" id="content">
+                <h2>Pra ganhar, é preciso coragem!</h2>
+                <p> Até mesmo para pisar em um chão feito de vidro</p>
+                <button id="inicial">Bora jogar!</button>
+            </div>
+            <div id="jogo" class="jogo" style="display: none;">
+                <h2 id="escolha_titu" >Escolha seu caminho!</h2>
+                <div class="opcoes" id="opcoes">
+                    <div class="opcao" onclick="jogar(1)">
+                        <img src="./css/imgs/caminho1.png" alt="Caminho 1" class="imagem-clicavel" alt="Imagem clicável">
+                    </div>
+                    <div class="opcao" onclick="jogar(2)">
+                        <img src="./css/imgs/caminho2.png" alt="Caminho 2" class="imagem-clicavel" alt="Imagem clicável">
+                    </div>
+                    <div class="opcao" onclick="jogar(3)">
+                        <img src="./css/imgs/caminho3.png" alt="Caminho 3" class="imagem-clicavel" alt="Imagem clicável">
+                    </div>
+                </div>
+                <div class="resultado" id="resultado">
+                </div>
+            </div>
+        </div>
+        <footer>Alura - Imersão DEV - 2025</footer>
+    </body>
+</html>
+  
+  
