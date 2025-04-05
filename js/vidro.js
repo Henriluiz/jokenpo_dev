@@ -9,6 +9,9 @@ function recarregarPagina() {
     location.reload(); // Recarrega a página
 }
 
+function abrirSite(url) {
+    window.open(url); // '_blank' abre em nova aba
+}
 
 
 let rodada = 0
