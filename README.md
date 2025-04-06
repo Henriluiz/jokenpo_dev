@@ -3,7 +3,7 @@
 ---
 ## 📸 Captura de Tela
 
-![Preview do seletor de heróis!](./css/imgs/capturadetela.png)
+![Preview do seletor de heróis!](./css/imgs/capuradetela.png)
 ---
 
 ## 🚀 Link
